@@ -1,4 +1,4 @@
-import Enum from "../../src";
+import Enum from "../../src/index.js";
 
 describe('Test Enum class ', () => {
   describe('When creating new Enum and ', () => {

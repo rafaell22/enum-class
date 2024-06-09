@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "module": "ESNext",
+    "target": "ES2015",
+    "moduleResolution": "nodenext",
+    "declaration": true,
+    "esModuleInterop": true,
+    "paths": {
+      "#src/*": ["./src/*"]
+    }
+  }
+}
+

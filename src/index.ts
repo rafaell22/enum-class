@@ -1,4 +1,4 @@
-import toUpperSnakeCase from '@rafaell22/to-upper-snake-case/src/index';
+import toUpperSnakeCase from '@rafaell22/to-upper-snake-case';
 
 export type EnumOptions = {
   useStrValues?: boolean;
