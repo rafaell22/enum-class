@@ -19,16 +19,15 @@ export default class Enum {
   private constructor() {}
 
   public static fromValues(enumOptions: string | EnumOptions, ...values: string[]): EnumType {
-    if(
-      !enumOptions &&
-      values.length === 0
-    ) {
-      throw new Error('Cannot create empty enum');
-    }
-
     if(typeof enumOptions === 'string') {
       values.push(enumOptions);
       enumOptions = {};
+    }
+
+    if(
+      values.length === 0
+    ) {
+      throw new Error('Cannot create empty enum');
     }
 
     const enumInstance = {};
